@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 import service_img from "../img/img_01.webp";
-import service_img2 from "../img/service_img.webp"
+import service_img2 from "../img/service_img.webp";
 import { HiOutlineLightBulb } from "react-icons/hi";
 import { FaAward } from "react-icons/fa";
 import { BsArrowUpRight } from "react-icons/bs";
@@ -75,11 +75,11 @@ function Service() {
             </div>
             <div>
               <Image
-               src={service_img2}
-               alt="service_img"
-               height={500}
-               width={500}
-               className=" md:w-[100rem]"
+                src={service_img2}
+                alt="service_img"
+                height={500}
+                width={500}
+                className=" md:w-[100rem]"
               />
             </div>
           </div>

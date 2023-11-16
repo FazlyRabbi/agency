@@ -96,8 +96,7 @@ function Hero() {
               </div>
             </div>
             <div className="px-5">
-            <div className="bg-white w-full py-4 xl:py-5 shadow-lg rounded-b-[10px]">
-            </div>
+              <div className="bg-white w-full py-4 xl:py-5 shadow-lg rounded-b-[10px]"></div>
             </div>
           </div>
           {/* =============== clients section end ====================== */}

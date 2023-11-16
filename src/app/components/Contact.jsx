@@ -4,7 +4,6 @@ import Link from "next/link";
 import contact_img from "../img/image-ct.webp";
 import { FaRegPaperPlane } from "react-icons/fa";
 
-
 function Contact() {
   return (
     <section>
@@ -42,21 +41,17 @@ function Contact() {
                 ></textarea>
               </div>
               <div className="py-10 flex justify-center md:justify-start">
-              <Link
-                href={"#"}
-                className="text-white py-4 px-8 bg-gradient rounded-full flex items-center gap-4 "
-              >
-                <p className="text-xl">Send Message Now</p>
-                <FaRegPaperPlane className="text-white text-[1.2rem] " />
-              </Link>
-            </div>
+                <Link
+                  href={"#"}
+                  className="text-white py-4 px-8 bg-gradient rounded-full flex items-center gap-4 "
+                >
+                  <p className="text-xl">Send Message Now</p>
+                  <FaRegPaperPlane className="text-white text-[1.2rem] " />
+                </Link>
+              </div>
             </div>
             <div>
-            <Image
-               src={contact_img} 
-               alt="contact_img"
-               className="" 
-               />
+              <Image src={contact_img} alt="contact_img" className="" />
             </div>
           </div>
         </div>

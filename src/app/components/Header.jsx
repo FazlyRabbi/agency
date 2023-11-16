@@ -106,12 +106,7 @@ export default function Header() {
           href="#"
           className="mr-4 cursor-pointer py-1.5 transition-all duration-200"
         >
-          <Image
-           src={logo} 
-           height={150} 
-           width={200} 
-           alt="logo" 
-          />
+          <Image src={logo} height={150} width={200} alt="logo" />
         </Typography>
         <div className="flex items-center gap-4">
           <div className="flex flex-row-reverse gap-5 2xl:gap-20">
@@ -181,13 +176,6 @@ export default function Header() {
       </div>
       <MobileNav open={openNav}>
         {navList}
-        {/* <Button
-         variant="" 
-         size="sm" 
-         fullWidth 
-         className="mb-2">
-          <span>Buy Now</span>
-        </Button> */}
       </MobileNav>
     </Navbar>
   );

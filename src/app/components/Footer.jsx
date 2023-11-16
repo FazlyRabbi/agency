@@ -8,7 +8,7 @@ import footer_img_3 from "../img/footer_img_3.webp";
 import footer_img_4 from "../img/footer_img_4.webp";
 import footer_img_5 from "../img/footer_img_5.webp";
 import footer_img_6 from "../img/footer_img_6.webp";
-import app_btn from "../img/app-btn1.webp"
+import app_btn from "../img/app-btn1.webp";
 import {
   FaRegPaperPlane,
   FaFacebookF,
@@ -19,37 +19,29 @@ import {
 } from "react-icons/fa";
 import { MdLocationOn } from "react-icons/md";
 
-
 function Footer() {
   return (
     <section>
       <div className="w-full py-16 bg-[#030128]">
         <div className="container mx-auto px-4">
-             {/* play store section  */}
-             <div className="pb-16 md:-mt-40 xl:-mt-48">
-             <div className="footer_bg_img w-full py-10 rounded-xl">
+          {/* play store section  */}
+          <div className="pb-16 md:-mt-40 xl:-mt-48">
+            <div className="footer_bg_img w-full py-10 rounded-xl">
               <div className="px-8">
-                   <h1 className="py-10 text-center text-white text-[1.9rem] md:text-[2.2rem] font-bold ">Download Our app to make marketing easy</h1>
-                   <div className="flex flex-col gap-4 md:flex-row md:justify-center">
-                    <div className="flex justify-center">
-                    <Image
-                     src={app_btn}
-                     alt="app"
-                     className="cursor-pointer"
-                    />
-                    </div>
-                    <div className="flex justify-center">
-                    <Image
-                     src={app_btn}
-                     alt="app"
-                     className="cursor-pointer"
-                    />
-                    </div>
-
-                   </div>
+                <h1 className="py-10 text-center text-white text-[1.9rem] md:text-[2.2rem] font-bold ">
+                  Download Our app to make marketing easy
+                </h1>
+                <div className="flex flex-col gap-4 md:flex-row md:justify-center">
+                  <div className="flex justify-center">
+                    <Image src={app_btn} alt="app" className="cursor-pointer" />
+                  </div>
+                  <div className="flex justify-center">
+                    <Image src={app_btn} alt="app" className="cursor-pointer" />
+                  </div>
+                </div>
               </div>
-             </div>
-             </div>
+            </div>
+          </div>
           {/* ============================================== */}
           <div className="grid grid-cols-1 gap-5 md:grid-cols-2 md:space-y-5 xl:grid-cols-4 ">
             {/* grid 1 start */}
@@ -85,15 +77,15 @@ function Footer() {
                       className="bg-black py-3 px-10 text-white w-[19rem] xl:w-[14rem] focus:outline-none"
                     />
                   </div>
-                    <button type="button" className="bg-gradient p-4">
-                      <FaRegPaperPlane className="text-white " />
-                    </button>
+                  <button type="button" className="bg-gradient p-4">
+                    <FaRegPaperPlane className="text-white " />
+                  </button>
                 </div>
-                <div className="flex items-center justify-start gap-5 pt-5">
-                  <FaFacebookF className="text-[#494949] text-xl hover:text-[#00BFE6]" />
-                  <FaInstagram className="text-[#494949] text-xl hover:text-[#00BFE6]" />
-                  <FaTwitter className="text-[#494949] text-xl hover:text-[#00BFE6]" />
-                  <FaPinterestP className="text-[#494949] text-xl hover:text-[#00BFE6]" />
+                <div className="flex items-center justify-start gap-5 pt-5 ">
+                  <FaFacebookF className="text-[#494949] text-xl hover:text-[#00BFE6] cursor-pointer" />
+                  <FaInstagram className="text-[#494949] text-xl hover:text-[#00BFE6] cursor-pointer" />
+                  <FaTwitter className="text-[#494949] text-xl hover:text-[#00BFE6] cursor-pointer" />
+                  <FaPinterestP className="text-[#494949] text-xl hover:text-[#00BFE6] cursor-pointer" />
                 </div>
               </div>
             </div>
