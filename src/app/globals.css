@@ -3,3 +3,38 @@
 @tailwind utilities;
 
 
+.bg-gradient {
+    background-color: transparent;
+    background-image: linear-gradient(50deg, #00D4FB 1%, #2736F7 100%);
+}
+
+.text-gradient {
+    background-color: transparent;
+    background-image: linear-gradient(143deg, #00D4FB 0%, #2736F7 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.bg_img{
+    background-position: 150% 0px;
+    background-color: #00061A;
+    background-image: url(./img/service_bg.webp);
+ 
+    background-size: cover ;
+    background-repeat: no-repeat;
+}
+
+.footer_bg_img{
+    background-color: #030128;
+    background-image: url(./img/footer_bg.webp);
+    background-position: center;
+    background-size: cover ;
+    background-repeat: no-repeat;
+}
+
+.footer_top_bg_img{
+    background-image: url(./img/akta_bg.webp);
+    background-position: center;
+    background-size: cover ;
+    background-repeat: no-repeat;
+}
