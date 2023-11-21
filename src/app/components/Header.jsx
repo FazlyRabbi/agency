@@ -22,7 +22,7 @@ export default function Header() {
   }, []);
 
   const navList = (
-    <ul className="mb-4 mt-2 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-5">
+    <ul className="mb-4 mt-2 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-5 z-50">
       <Typography
         as="li"
         variant="small"

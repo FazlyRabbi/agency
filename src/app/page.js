@@ -8,6 +8,7 @@ import Header from "./components/Header";
 import HeaderTop from "./components/HeaderTop";
 import Hero from "./components/Hero";
 import Service from "./components/Service";
+import Portfolio from "./components/Portfolio";
 
 // imports components
 
@@ -19,6 +20,7 @@ export default function Home() {
       <Hero/>
       <About/>
       <Service/>
+      <Portfolio/>
       <Contact/>
       <Footer_top/>
       <Footer/>
