@@ -27,3 +27,18 @@ https://api.github.com/repos/FazlyRabbi/TheFlutterWayMarket/contents/README.md
 
 
 https://api.github.com/search/issues?q=stress+test+label:bug+language:python+state:closed&per_page=100
+
+
+
+https://preview.themeforest.net/item/geekfolio-creative-agency-portfolio-template/full_screen_preview/45360728?_ga=2.219680925.56901974.1700541396-1840029065.1686757187
+
+
+fix footer icon -- done
+
+fix responsive -- done
+
+Header top fix socail media icon -- done 
+
+give focus on footer social icon -- done 
+
+add favcone -- done 

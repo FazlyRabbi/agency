@@ -14,7 +14,7 @@ import {
   FaFacebookF,
   FaInstagram,
   FaLinkedin,
-  FaTwitterSquare,
+  
   FaPinterestP,
   FaPhone,
 } from "react-icons/fa";
@@ -87,27 +87,27 @@ function Footer() {
                     target="_blank"
                     href={`https://www.facebook.com/delwarit`}
                   >
-                    <FaFacebookF className="text-[#494949] text-xl hover:text-[#00BFE6] cursor-pointer" />
+                    <FaFacebookF className="text-xl text-[#00BFE6] cursor-pointer" />
                   </Link>
                   <Link
                     target="_blank"
                     href={`https://www.instagram.com/delwarit/`}
                   >
-                    <FaInstagram className="text-[#494949] text-xl hover:text-[#00BFE6] cursor-pointer" />
+                    <FaInstagram className="text-xl text-[#00BFE6] cursor-pointer" />
                   </Link>
 
                   <Link
                     target="_blank"
                     href={`https://www.pinterest.com/delwarit/`}
                   >
-                    <FaPinterestP className="text-[#494949] text-xl hover:text-[#00BFE6] cursor-pointer" />
+                    <FaPinterestP className="text-xl text-[#00BFE6] cursor-pointer" />
                   </Link>
 
                   <Link
                     target="_blank"
                     href={`https://www.linkedin.com/company/delwarit`}
                   >
-                    <FaLinkedin className="text-[#494949] text-xl hover:text-[#00BFE6] cursor-pointer" />
+                    <FaLinkedin className="text-xl text-[#00BFE6] cursor-pointer" />
                   </Link>
                 </div>
               </div>
@@ -117,20 +117,22 @@ function Footer() {
               <h3 className="text-white text-2xl font-semibold">Contact Us</h3>
               <p className="h-[3px] w-[40px] bg-[#5858FE] mt-1"></p>
               <p className="text-sm text-[#90A4A4] py-4"></p>
-              <div className="">
-                <MdLocationOn className="text-2xl text-[#5858FE]" />
+              <div className=" flex  items-center space-x-5">
+                <MdLocationOn className="text-[2rem] text-[#5858FE]" />
                 <p className="mt-2 text-sm text-[#B2B1BC]">
                   102 Ave Ozone Park ,
-                </p>
-                <p className="text-sm text-[#B2B1BC]">
-                  queens New york , NY11416 info.delwarit@gmail.com
+                  <p className="text-sm text-[#B2B1BC]">
+                    queens New york , NY-11416 info.delwarit@gmail.com
+                  </p>
                 </p>
               </div>
-              <div className="py-4">
+              <div className="py-4 flex items-center space-x-5 mt-3 ">
+               
                 <FaPhone className="text-xl text-[#5858FE]" />
-                <p className="mt-3 text-sm text-[#B2B1BC]">9296429246</p>
+                <p className="text-sm text-[#B2B1BC]">9296429246</p>
+
               </div>
-              <p className=" text-white font-semibold">Open Hours:</p>
+              <p className=" text-white font-semibold mt-3">Open Hours:</p>
               <p className="mt-2 text-sm text-[#90A4A4]">
                 Mon - Sat: 8 am - 6 pm,
               </p>

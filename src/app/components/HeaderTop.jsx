@@ -1,6 +1,14 @@
 import React from "react";
 import Link from "next/link";
-import { FaRegMap, FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
+import {
+  FaRegMap,
+  FaRegPaperPlane,
+  FaFacebookF,
+  FaInstagram,
+  FaLinkedin,
+  FaPinterestP,
+  FaPhone,
+} from "react-icons/fa";
 
 function HeaderTop() {
   return (
@@ -10,7 +18,9 @@ function HeaderTop() {
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-3">
               <FaRegMap className="text-white text-[1.1rem]" />
-              <p className="text-white">102 Ave  Ozone Park , queens, New york , NY 11416</p>
+              <p className="text-white">
+                102 Ave Ozone Park , queens, New york , NY 11416
+              </p>
             </div>
             <div className="flex items-center gap-10">
               <div>
@@ -29,14 +39,31 @@ function HeaderTop() {
                 </ul>
               </div>
               <div className="flex items-center gap-2 text-white">
-                <Link href={"#"}>
-                  <FaFacebookF className="text-[1.1rem]" />
+                <Link
+                  target="_blank"
+                  href={`https://www.facebook.com/delwarit`}
+                >
+                  <FaFacebookF className="text-xl  cursor-pointer" />
                 </Link>
-                <Link href={"#"}>
-                  <FaTwitter className="text-[1.1rem]" />
+                <Link
+                  target="_blank"
+                  href={`https://www.instagram.com/delwarit/`}
+                >
+                  <FaInstagram className="text-xl  cursor-pointer" />
                 </Link>
-                <Link href={"#"}>
-                  <FaLinkedinIn className="text-[1.1rem]" />
+
+                <Link
+                  target="_blank"
+                  href={`https://www.pinterest.com/delwarit/`}
+                >
+                  <FaPinterestP className="text-xl  cursor-pointer" />
+                </Link>
+
+                <Link
+                  target="_blank"
+                  href={`https://www.linkedin.com/company/delwarit`}
+                >
+                  <FaLinkedin className="text-xl  cursor-pointer" />
                 </Link>
               </div>
             </div>

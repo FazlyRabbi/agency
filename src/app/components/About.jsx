@@ -18,7 +18,7 @@ function About() {
           <div className="flex flex-col xl:flex-row xl:items-center xl:justify-between">
             <div className="">
               <p className="text-lg text-[#161616] md:text-2xl">
-                We are <span className="text-[#9090FC]">inbite</span>, IT
+                We are <span className="text-[#9090FC]">Delwar</span>, IT
                 solutions agency!
               </p>
               <h2 className="py-5 text-3xl font-bold md:text-4xl xl:text-5xl xl:leading-[60px]">
