@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import logo from "../img/logo.svg";
+import logo from "../img/logo.webp";
 import footer_img_1 from "../img/footer_img_1.webp";
 import footer_img_2 from "../img/footer_img_2.webp";
 import footer_img_3 from "../img/footer_img_3.webp";
@@ -13,7 +13,8 @@ import {
   FaRegPaperPlane,
   FaFacebookF,
   FaInstagram,
-  FaTwitter,
+  FaLinkedin,
+  FaTwitterSquare,
   FaPinterestP,
   FaPhone,
 } from "react-icons/fa";
@@ -46,7 +47,7 @@ function Footer() {
           <div className="grid grid-cols-1 gap-5 md:grid-cols-2 md:space-y-5 xl:grid-cols-4 ">
             {/* grid 1 start */}
             <div className="xl:mt-5">
-              <Image src={logo} alt="logo" />
+              <Image src={logo} alt="logo" width={200} height={200} />
 
               <p className="text-sm text-[#90A4A4] py-4">
                 We work with a passion of taking challenges and creating new
@@ -82,10 +83,32 @@ function Footer() {
                   </button>
                 </div>
                 <div className="flex items-center justify-start gap-5 pt-5 ">
-                  <FaFacebookF className="text-[#494949] text-xl hover:text-[#00BFE6] cursor-pointer" />
-                  <FaInstagram className="text-[#494949] text-xl hover:text-[#00BFE6] cursor-pointer" />
-                  <FaTwitter className="text-[#494949] text-xl hover:text-[#00BFE6] cursor-pointer" />
-                  <FaPinterestP className="text-[#494949] text-xl hover:text-[#00BFE6] cursor-pointer" />
+                  <Link
+                    target="_blank"
+                    href={`https://www.facebook.com/delwarit`}
+                  >
+                    <FaFacebookF className="text-[#494949] text-xl hover:text-[#00BFE6] cursor-pointer" />
+                  </Link>
+                  <Link
+                    target="_blank"
+                    href={`https://www.instagram.com/delwarit/`}
+                  >
+                    <FaInstagram className="text-[#494949] text-xl hover:text-[#00BFE6] cursor-pointer" />
+                  </Link>
+
+                  <Link
+                    target="_blank"
+                    href={`https://www.pinterest.com/delwarit/`}
+                  >
+                    <FaPinterestP className="text-[#494949] text-xl hover:text-[#00BFE6] cursor-pointer" />
+                  </Link>
+
+                  <Link
+                    target="_blank"
+                    href={`https://www.linkedin.com/company/delwarit`}
+                  >
+                    <FaLinkedin className="text-[#494949] text-xl hover:text-[#00BFE6] cursor-pointer" />
+                  </Link>
                 </div>
               </div>
             </div>
@@ -97,19 +120,21 @@ function Footer() {
               <div className="">
                 <MdLocationOn className="text-2xl text-[#5858FE]" />
                 <p className="mt-2 text-sm text-[#B2B1BC]">
-                  30 Commercial Road
+                  102 Ave Ozone Park ,
                 </p>
-                <p className="text-sm text-[#B2B1BC]">Fratton, Australia</p>
+                <p className="text-sm text-[#B2B1BC]">
+                  queens New york , NY11416 info.delwarit@gmail.com
+                </p>
               </div>
               <div className="py-4">
                 <FaPhone className="text-xl text-[#5858FE]" />
-                <p className="mt-3 text-sm text-[#B2B1BC]">1-888-452-1505</p>
+                <p className="mt-3 text-sm text-[#B2B1BC]">9296429246</p>
               </div>
               <p className=" text-white font-semibold">Open Hours:</p>
               <p className="mt-2 text-sm text-[#90A4A4]">
-                Mon - Sat: 8 am - 5 pm,
+                Mon - Sat: 8 am - 6 pm,
               </p>
-              <p className="text-sm text-[#90A4A4]">sunday: CLOSED</p>
+              <p className="text-sm text-[#90A4A4]">Sunday: CLOSED</p>
             </div>
             {/* grid 4 start */}
             <div>
@@ -145,7 +170,7 @@ function Footer() {
           {/* ============================================= */}
           <div className="mt-20 w-full h-[2px] bg-[#02071E]">
             <p className="text-white text-center pt-6 ">
-              © 2023 Invite - IT Services. All rights reserved.
+              © 2023 DelwarIT. All rights reserved.
             </p>
           </div>
         </div>

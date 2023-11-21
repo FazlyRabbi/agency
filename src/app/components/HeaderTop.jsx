@@ -10,7 +10,7 @@ function HeaderTop() {
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-3">
               <FaRegMap className="text-white text-[1.1rem]" />
-              <p className="text-white">360 Albert St, Melbourne, Astralia</p>
+              <p className="text-white">102 Ave  Ozone Park , queens, New york , NY 11416</p>
             </div>
             <div className="flex items-center gap-10">
               <div>

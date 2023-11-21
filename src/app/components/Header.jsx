@@ -8,7 +8,7 @@ import {
 } from "@material-tailwind/react";
 import Image from "next/image";
 import { Link } from "react-scroll";
-import logo from "../img/logo.svg";
+import logo from "../img/logo.webp";
 import { FaBlenderPhone } from "react-icons/fa";
 
 export default function Header() {
@@ -127,7 +127,7 @@ export default function Header() {
                   href="#"
                   className="text-white ml-5 font-semibold hover:text-[#06D889] transition-all duration-200"
                 >
-                  2-965-871-8617
+                   9296429246
                 </Link>
               </div>
             </div>
