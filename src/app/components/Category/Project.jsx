@@ -2,6 +2,7 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 import project_1 from "../../img/portfolio/print&graph.png";
+import project_2 from "../../img/portfolio/haircutt.png"
 import { FaArrowRight, FaEye } from "react-icons/fa";
 
 function project() {
@@ -233,7 +234,7 @@ function project() {
               </p>
             </div>
           </div>
-          <div className="py-10 grid grid-cols-1 gap-4">
+          <div className="py-10 grid grid-cols-1 gap-4 md:grid-cols-2 lg:py-20">
             <div className="relative group ">
               <Image
                 src={project_1}
@@ -251,15 +252,125 @@ function project() {
                   </p>
                   <div className="flex items-center gap-5 pt-4">
                     <Link
-                      href={"#"}
+                      href={"../../Project/Project-info"}
+                      target="_blank"
                       className=" px-3 py-1 text-white bg-gradient rounded-full flex items-center gap-1"
                     >
                       <p className="text-sm">Read more</p>
                       <FaArrowRight className="text-sm mt-[2px]" />
                     </Link>
                     <Link
-                      href={"#"}
+                      href={"https://nprintandgraph.com/"}
+                      target="_blank"
                       className=" px-3 py-1 text-white bg-gradient rounded-full flex items-center gap-1"
+                    >
+                      <FaEye className="text-sm mt-[2px]" />
+                      <p className="text-sm">Live Preview</p>
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="relative group ">
+              <Image
+                src={project_2}
+                alt="Project_2"
+                className="hover:brightness-75 transition-all duration-300"
+              />
+              <div className="opacity-0 group-hover:opacity-100 duration-300 absolute inset-x-0 bottom-0 flex justify-start px-5 items-end bg-[#15171ce1]">
+                <div className="py-5">
+                  <h3 className="font-semibold text-gradient text-xl">
+                    Business Web
+                  </h3>
+                  <p className="text-sm leading-tight text-white">
+                    A erat nam at lectus. Accumsan tortor posuere. Etiam erat
+                    velit scelerisque in dictum non consectetur.
+                  </p>
+                  <div className="flex items-center gap-5 pt-4">
+                    <Link
+                      href={"../../Project/Project-info"}
+                      target="_blank"
+                      className=" px-3 py-1 text-white bg-gradient rounded-full flex items-center gap-1"
+                    >
+                      <p className="text-sm">Read more</p>
+                      <FaArrowRight className="text-sm mt-[2px]" />
+                    </Link>
+                    <Link
+                      href={"https://nprintandgraph.com/"}
+                      target="_blank"
+                      className=" px-3 py-1 text-white bg-gradient rounded-full flex items-center gap-1"
+                    >
+                      <FaEye className="text-sm mt-[2px]" />
+                      <p className="text-sm">Live Preview</p>
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="md:col-span-2 relative group ">
+              <Image
+                src={project_1}
+                alt="Project_1"
+                className="hover:brightness-75 transition-all duration-300"
+              />
+              <div className="opacity-0 group-hover:opacity-100 duration-300 absolute inset-x-0 bottom-0 flex justify-start  px-5 items-end bg-[#15171ce1] lg:py-10">
+                <div className="py-5">
+                  <h3 className="font-semibold text-gradient text-xl lg:text-3xl">
+                    Business Web
+                  </h3>
+                  <p className="text-sm leading-tight text-white">
+                    A erat nam at lectus. Accumsan tortor posuere. Etiam erat
+                    velit scelerisque in dictum non consectetur.
+                  </p>
+                  <div className="flex items-center gap-5 pt-4 lg:pt-6">
+                    <Link
+                      href={"../../Project/Project-info"}
+                      target="_blank"
+                      className=" px-3 py-1 lg:px-5 lg:py-2 text-white bg-gradient rounded-full flex items-center gap-1"
+                    >
+                      <p className="text-sm">Read more</p>
+                      <FaArrowRight className="text-sm mt-[2px]" />
+                    </Link>
+                    <Link
+                      href={"https://nprintandgraph.com/"}
+                      target="_blank"
+                      className=" px-3 py-1 lg:px-5 lg:py-2 text-white bg-gradient rounded-full flex items-center gap-1"
+                    >
+                      <FaEye className="text-sm mt-[2px]" />
+                      <p className="text-sm">Live Preview</p>
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="md:col-span-2 relative group ">
+              <Image
+                src={project_2}
+                alt="Project_1"
+                className="hover:brightness-75 transition-all duration-300"
+              />
+              <div className="opacity-0 group-hover:opacity-100 duration-300 absolute inset-x-0 bottom-0 flex justify-start  px-5 items-end bg-[#15171ce1] lg:py-10">
+                <div className="py-5">
+                  <h3 className="font-semibold text-gradient text-xl lg:text-3xl">
+                    Business Web
+                  </h3>
+                  <p className="text-sm leading-tight text-white">
+                    A erat nam at lectus. Accumsan tortor posuere. Etiam erat
+                    velit scelerisque in dictum non consectetur.
+                  </p>
+                  <div className="flex items-center gap-5 pt-4 lg:pt-6">
+                    <Link
+                      href={"../../Project/Project-info"}
+                      target="_blank"
+                      className=" px-3 py-1 lg:px-5 lg:py-2 text-white bg-gradient rounded-full flex items-center gap-1"
+                    >
+                      <p className="text-sm">Read more</p>
+                      <FaArrowRight className="text-sm mt-[2px]" />
+                    </Link>
+                    <Link
+                      href={"https://nprintandgraph.com/"}
+                      target="_blank"
+                      className=" px-3 py-1 lg:px-5 lg:py-2 text-white bg-gradient rounded-full flex items-center gap-1"
                     >
                       <FaEye className="text-sm mt-[2px]" />
                       <p className="text-sm">Live Preview</p>
