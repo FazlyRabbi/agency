@@ -108,8 +108,3 @@ function Hero() {
 }
 
 export default Hero;
-
-
-// agfaghagha[gih]
-
-// I have changed the file.
