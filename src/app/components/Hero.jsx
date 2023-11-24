@@ -8,9 +8,9 @@ import Hero_img_small_2 from "../img/hero-3.webp";
 
 function Hero() {
   return (
-    <section>
+    <section> 
       <div className="w-full py-10">
-        <div className="container mx-auto px-2 ">
+        <div className="container mx-auto px-2">
           <div className="flex flex-col md:flex-row md:justify-between md:items-center md:gap-5 xl:gap-4 xl:ml-20">
             {/* hero text section start  */}
             <div className="text-center md:text-start pt-8">
@@ -19,6 +19,7 @@ function Hero() {
                 <span className="text-[#061B2E] ">
                   se learning technology to deliver.
                 </span>
+
               </h1>
               <p className="text-[#85848E] text-lg pt-5">
                 We are Passion Digital, a full-service digital marketing agency
@@ -107,3 +108,7 @@ function Hero() {
 }
 
 export default Hero;
+
+
+
+// fhiofhwghgh
