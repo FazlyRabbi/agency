@@ -58,7 +58,7 @@ export default function Header() {
         color="blue-gray"
         className="p-1 transition-all duration-200  text-white text-md hover:text-[#06D889]"
       >
-        <a href="#" className="flex items-center">
+        <a href="../Project" className="flex items-center">
           Project
         </a>
       </Typography>
