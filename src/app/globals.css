@@ -46,3 +46,16 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.faq-hero-bg {
+    background-image: url('./img/faq-full-bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text-bg {
+    background: linear-gradient(90deg, #5956f0 0%, #ff50b8 100%);
+    background-clip: text;
+    color: transparent;
+}
