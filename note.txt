@@ -42,3 +42,18 @@ Header top fix socail media icon -- done
 give focus on footer social icon -- done 
 
 add favcone -- done 
+
+
+
+========================================
+Delwarit-- Portfolio section
+
+		Link to project == done
+		Detials page == done
+		Blog Page == done
+		Service Page == done
+
+		Faq 
+		Project Proposul Page
+		Term & condition page
+		Client Reveiw/Testimmonial

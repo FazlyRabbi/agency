@@ -253,7 +253,6 @@ function project() {
                   <div className="flex items-center gap-5 pt-4">
                     <Link
                       href={"../../Project/Project-info"}
-                      target="_blank"
                       className=" px-3 py-1 text-white bg-gradient rounded-full flex items-center gap-1"
                     >
                       <p className="text-sm">Read more</p>
@@ -289,7 +288,6 @@ function project() {
                   <div className="flex items-center gap-5 pt-4">
                     <Link
                       href={"../../Project/Project-info"}
-                      target="_blank"
                       className=" px-3 py-1 text-white bg-gradient rounded-full flex items-center gap-1"
                     >
                       <p className="text-sm">Read more</p>
@@ -325,7 +323,6 @@ function project() {
                   <div className="flex items-center gap-5 pt-4 lg:pt-6">
                     <Link
                       href={"../../Project/Project-info"}
-                      target="_blank"
                       className=" px-3 py-1 lg:px-5 lg:py-2 text-white bg-gradient rounded-full flex items-center gap-1"
                     >
                       <p className="text-sm">Read more</p>
@@ -361,7 +358,6 @@ function project() {
                   <div className="flex items-center gap-5 pt-4 lg:pt-6">
                     <Link
                       href={"../../Project/Project-info"}
-                      target="_blank"
                       className=" px-3 py-1 lg:px-5 lg:py-2 text-white bg-gradient rounded-full flex items-center gap-1"
                     >
                       <p className="text-sm">Read more</p>
