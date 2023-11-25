@@ -38,3 +38,19 @@
     background-size: cover ;
     background-repeat: no-repeat;
 }
+
+.project-bg{
+    background-image:linear-gradient(to bottom, #15171cec, #15171cf1),
+     url(./img/bg_2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.project_info_bg{
+    background-image:linear-gradient(to bottom, #15171cec, #15171cf1),
+     url(./img/bg-1.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

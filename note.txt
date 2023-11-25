@@ -42,27 +42,3 @@ Header top fix socail media icon -- done
 give focus on footer social icon -- done 
 
 add favcone -- done 
-
-
-	Delwarit-- Portfolio section
-
-		Link to project 
-
-		Detials page
-
-		Blog Page 
-
-		Project Proposul Page
-
-		Service Page
-
-		Faq 
-
-		Term & condition page
-
-		Client Reveiw/Testimmonial
-
-
-
-		Appointment System
-   		https://www.sjinnovation.com/book-a-call
