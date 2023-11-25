@@ -60,13 +60,15 @@ function Blog() {
                   aliquam id diam. Scelerisque varius morbi enim...
                 </p>
                 <div className="flex items-center">
-                  <p className="h-[2px] w-[20px] bg-[#A9AAAA]"></p>
-                  <p className="h-[10px] w-[10px] bg-gradient rounded-full"></p>
+                  <p className="h-[2px] w-[20px] bg-[#A9AAAA] overflow-hidden"></p>
                   <Link
                     href={"#"}
-                    className="px-1 py-1 text-white text-gradient rounded-full flex items-center gap-1"
+                    className="px-1 py-1 text-white rounded-full"
                   >
-                    <p className="text-lg font-semibold">Read more</p>
+                    <div className="flex items-center gap-1 hover:origin-left text-gradient hover:-translate-x-4 transition-all duration-300">
+                      <p className="h-[10px] w-[10px] bg-gradient rounded-full"></p>
+                      <p className="text-lg font-semibold">Read more</p>
+                    </div>
                   </Link>
                 </div>
               </div>
@@ -87,18 +89,20 @@ function Blog() {
                 >
                   Gaaga’s Email Marketing Campaigns
                 </Link>
-                <p className="text-[#A9AAAA] text-sm font-semibold py-2 leading-tight md:mr-40">
+                <p className="text-[#A9AAAA] text-sm font-semibold py-2 leading-tight md:mr-40 lg:mr-0">
                   Phasellus faucibus scelerisque eleifend donec. Sit amet
                   aliquam id diam. Scelerisque varius morbi enim...
                 </p>
                 <div className="flex items-center">
-                  <p className="h-[2px] w-[20px] bg-[#A9AAAA]"></p>
-                  <p className="h-[10px] w-[10px] bg-gradient rounded-full"></p>
+                  <p className="h-[2px] w-[20px] bg-[#A9AAAA] overflow-hidden"></p>
                   <Link
                     href={"#"}
-                    className="px-1 py-1 text-white text-gradient rounded-full flex items-center gap-1"
+                    className="px-1 py-1 text-white rounded-full"
                   >
-                    <p className="text-lg font-semibold">Read more</p>
+                    <div className="flex items-center gap-1 hover:origin-left text-gradient hover:-translate-x-4 transition-all duration-300">
+                      <p className="h-[10px] w-[10px] bg-gradient rounded-full"></p>
+                      <p className="text-lg font-semibold">Read more</p>
+                    </div>
                   </Link>
                 </div>
               </div>
@@ -119,18 +123,20 @@ function Blog() {
                 >
                   Creative & smart business ideas
                 </Link>
-                <p className="text-[#A9AAAA] text-sm font-semibold py-2 leading-tight md:mr-40">
+                <p className="text-[#A9AAAA] text-sm font-semibold py-2 leading-tight md:mr-40 lg:mr-0">
                   Phasellus faucibus scelerisque eleifend donec. Sit amet
                   aliquam id diam. Scelerisque varius morbi enim...
                 </p>
                 <div className="flex items-center">
-                  <p className="h-[2px] w-[20px] bg-[#A9AAAA]"></p>
-                  <p className="h-[10px] w-[10px] bg-gradient rounded-full"></p>
+                  <p className="h-[2px] w-[20px] bg-[#A9AAAA] overflow-hidden"></p>
                   <Link
                     href={"#"}
-                    className="px-1 py-1 text-white text-gradient rounded-full flex items-center gap-1"
+                    className="px-1 py-1 text-white rounded-full"
                   >
-                    <p className="text-lg font-semibold">Read more</p>
+                    <div className="flex items-center gap-1 hover:origin-left text-gradient hover:-translate-x-4 transition-all duration-300">
+                      <p className="h-[10px] w-[10px] bg-gradient rounded-full"></p>
+                      <p className="text-lg font-semibold">Read more</p>
+                    </div>
                   </Link>
                 </div>
               </div>
@@ -151,18 +157,20 @@ function Blog() {
                 >
                   Gaaga’s Email Marketing Campaigns
                 </Link>
-                <p className="text-[#A9AAAA] text-sm font-semibold py-2 leading-tight md:mr-40">
+                <p className="text-[#A9AAAA] text-sm font-semibold py-2 leading-tight md:mr-40 lg:mr-0">
                   Phasellus faucibus scelerisque eleifend donec. Sit amet
                   aliquam id diam. Scelerisque varius morbi enim...
                 </p>
                 <div className="flex items-center">
-                  <p className="h-[2px] w-[20px] bg-[#A9AAAA]"></p>
-                  <p className="h-[10px] w-[10px] bg-gradient rounded-full"></p>
+                  <p className="h-[2px] w-[20px] bg-[#A9AAAA] overflow-hidden"></p>
                   <Link
                     href={"#"}
-                    className="px-1 py-1 text-white text-gradient rounded-full flex items-center gap-1"
+                    className="px-1 py-1 text-white rounded-full"
                   >
-                    <p className="text-lg font-semibold">Read more</p>
+                    <div className="flex items-center gap-1 hover:origin-left text-gradient hover:-translate-x-4 transition-all duration-300">
+                      <p className="h-[10px] w-[10px] bg-gradient rounded-full"></p>
+                      <p className="text-lg font-semibold">Read more</p>
+                    </div>
                   </Link>
                 </div>
               </div>
@@ -183,18 +191,20 @@ function Blog() {
                 >
                   Creative & smart business ideas
                 </Link>
-                <p className="text-[#A9AAAA] text-sm font-semibold py-2 leading-tight md:mr-40">
+                <p className="text-[#A9AAAA] text-sm font-semibold py-2 leading-tight md:mr-40 lg:mr-0">
                   Phasellus faucibus scelerisque eleifend donec. Sit amet
                   aliquam id diam. Scelerisque varius morbi enim...
                 </p>
                 <div className="flex items-center">
-                  <p className="h-[2px] w-[20px] bg-[#A9AAAA]"></p>
-                  <p className="h-[10px] w-[10px] bg-gradient rounded-full"></p>
+                  <p className="h-[2px] w-[20px] bg-[#A9AAAA] overflow-hidden"></p>
                   <Link
                     href={"#"}
-                    className="px-1 py-1 text-white text-gradient rounded-full flex items-center gap-1"
+                    className="px-1 py-1 text-white rounded-full"
                   >
-                    <p className="text-lg font-semibold">Read more</p>
+                    <div className="flex items-center gap-1 hover:origin-left text-gradient hover:-translate-x-4 transition-all duration-300">
+                      <p className="h-[10px] w-[10px] bg-gradient rounded-full"></p>
+                      <p className="text-lg font-semibold">Read more</p>
+                    </div>
                   </Link>
                 </div>
               </div>
@@ -215,23 +225,25 @@ function Blog() {
                 >
                   Gaaga’s Email Marketing Campaigns
                 </Link>
-                <p className="text-[#A9AAAA] text-sm font-semibold py-2 leading-tight md:mr-40">
+                <p className="text-[#A9AAAA] text-sm font-semibold py-2 leading-tight md:mr-40 lg:mr-0">
                   Phasellus faucibus scelerisque eleifend donec. Sit amet
                   aliquam id diam. Scelerisque varius morbi enim...
                 </p>
                 <div className="flex items-center">
-                  <p className="h-[2px] w-[20px] bg-[#A9AAAA]"></p>
-                  <p className="h-[10px] w-[10px] bg-gradient rounded-full"></p>
+                  <p className="h-[2px] w-[20px] bg-[#A9AAAA] overflow-hidden"></p>
                   <Link
                     href={"#"}
-                    className="px-1 py-1 text-white text-gradient rounded-full flex items-center gap-1"
+                    className="px-1 py-1 text-white rounded-full"
                   >
-                    <p className="text-lg font-semibold">Read more</p>
+                    <div className="flex items-center gap-1 hover:origin-left text-gradient hover:-translate-x-4 transition-all duration-300">
+                      <p className="h-[10px] w-[10px] bg-gradient rounded-full"></p>
+                      <p className="text-lg font-semibold">Read more</p>
+                    </div>
                   </Link>
                 </div>
               </div>
             </div>
-            <div className="w-full border-[1px] border-[#32C5FA] py-16 px-5">
+            <div className="w-full border-[1px] border-[#32C5FA] py-10 px-5">
               <h2 className="text-white font-bold text-3xl pb-5">
                 Recent Post
               </h2>
@@ -239,7 +251,11 @@ function Blog() {
                 <div className="py-5 border-b-[1px] border-[#2e3138fa]">
                   <div className="flex gap-6">
                     <div>
-                      <Image src={blog_small_img_1} alt="blog_small" />
+                      <Image
+                       src={blog_small_img_1} 
+                       alt="blog_small" 
+                       className="lg:w-32"
+                       />
                     </div>
                     <div>
                       <p className=" text-gradient font-semibold">
@@ -257,7 +273,10 @@ function Blog() {
                 <div className="py-5 border-b-[1px] border-[#2e3138fa]">
                   <div className="flex gap-6">
                     <div>
-                      <Image src={blog_small_img_2} alt="blog_small" />
+                      <Image 
+                      src={blog_small_img_2} alt="blog_small"
+                      className="lg:w-32" 
+                      />
                     </div>
                     <div>
                       <p className=" text-gradient font-semibold">
@@ -275,7 +294,10 @@ function Blog() {
                 <div className="py-5 border-b-[1px] border-[#2e3138fa]">
                   <div className="flex gap-6">
                     <div>
-                      <Image src={blog_small_img_3} alt="blog_small" />
+                      <Image 
+                      src={blog_small_img_3} alt="blog_small" 
+                      className="lg:w-32"
+                      />
                     </div>
                     <div>
                       <p className=" text-gradient font-semibold">
@@ -344,7 +366,11 @@ function Blog() {
                 </Link>
               </div>
               <div className="pt-8">
-                <Image src={blog_tags} alt="blog_tags" />
+                <Image 
+                src={blog_tags}
+                alt="blog_tags"
+                className="" 
+                />
               </div>
             </div>
           </div>

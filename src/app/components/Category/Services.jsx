@@ -34,16 +34,16 @@ function Services() {
       <div className="bg-[#15171cfa] py-20 w-full md:pb-40 lg:pb-48">
         <div className="container mx-auto px-4">
           <div className="pb-16 space-y-4">
-            <h1 className="text-white text-5xl font-semibold lg:text-6xl">
+            <h1 className="text-gradient text-5xl font-semibold lg:text-6xl">
               Our Services
             </h1>
-            <h3 className="text-[#ffffff8c] text-3xl lg:pr-40">
+            <h3 className="text-[#ffffff8c] text-2xl lg:pr-[30rem]">
               Our Services Range From Initial Design To Deployment Anywhere
-              Anytime
+              Anytime...
             </h3>
           </div>
           <div className="grid grid-cols-1 gap-4 md:grid-cols-2 md:gap-5 lg:grid-cols-3">
-            <div className="border-[1px] border-[#32C5FA] pt-10 px-5 hvr-bounce-to-left text-[#ffffff8c] hover:text-white">
+            <div className="border-[1px] border-[#32C5FA] pt-10 px-8 hvr-bounce-to-left text-[#ffffff8c] hover:text-white">
               <div className="flex items-center gap-2">
                 <div>
                   <Image src={service_icon_1} alt="service-img" />
@@ -71,7 +71,7 @@ function Services() {
                 </div>
               </div>
             </div>
-            <div className="border-[1px] border-[#32C5FA] py-10 px-5 hvr-bounce-to-left text-[#ffffff8c] hover:text-white">
+            <div className="border-[1px] border-[#32C5FA] py-10 px-8 hvr-bounce-to-left text-[#ffffff8c] hover:text-white">
               <div className="flex items-center gap-2">
                 <div>
                   <Image src={service_icon_2} alt="service-img" />
@@ -99,7 +99,7 @@ function Services() {
                 </div>
               </div>
             </div>
-            <div className="border-[1px] border-[#32C5FA] py-10 px-5 hvr-bounce-to-left text-[#ffffff8c] hover:text-white">
+            <div className="border-[1px] border-[#32C5FA] py-10 px-8 hvr-bounce-to-left text-[#ffffff8c] hover:text-white">
               <div className="flex items-center gap-2">
                 <div>
                   <Image src={service_icon_3} alt="service-img" />
@@ -127,7 +127,7 @@ function Services() {
                 </div>
               </div>
             </div>
-            <div className="border-[1px] border-[#32C5FA] py-10 px-5 hvr-bounce-to-left text-[#ffffff8c] hover:text-white">
+            <div className="border-[1px] border-[#32C5FA] py-10 px-8 hvr-bounce-to-left text-[#ffffff8c] hover:text-white">
               <div className="flex items-center gap-2">
                 <div>
                   <Image src={service_icon_4} alt="service-img" />
@@ -155,7 +155,7 @@ function Services() {
                 </div>
               </div>
             </div>
-            <div className="border-[1px] border-[#32C5FA] py-10 px-5 hvr-bounce-to-left text-[#ffffff8c] hover:text-white">
+            <div className="border-[1px] border-[#32C5FA] py-10 px-8 hvr-bounce-to-left text-[#ffffff8c] hover:text-white">
               <div className="flex items-center gap-2">
                 <div>
                   <Image src={service_icon_5} alt="service-img" />
@@ -183,7 +183,7 @@ function Services() {
                 </div>
               </div>
             </div>
-            <div className="border-[1px] border-[#32C5FA] py-10 px-5 hvr-bounce-to-left text-[#ffffff8c] hover:text-white">
+            <div className="border-[1px] border-[#32C5FA] py-10 px-8 hvr-bounce-to-left text-[#ffffff8c] hover:text-white">
               <div className="flex items-center gap-2">
                 <div>
                   <Image src={service_icon_6} alt="service-img" />
@@ -211,7 +211,7 @@ function Services() {
                 </div>
               </div>
             </div>
-            <div className="border-[1px] border-[#32C5FA] py-10 px-5 hvr-bounce-to-left text-[#ffffff8c] hover:text-white">
+            <div className="border-[1px] border-[#32C5FA] py-10 px-8 hvr-bounce-to-left text-[#ffffff8c] hover:text-white">
               <div className="flex items-center gap-2">
                 <div>
                   <Image src={service_icon_7} alt="service-img" />
@@ -239,7 +239,7 @@ function Services() {
                 </div>
               </div>
             </div>
-            <div className="border-[1px] border-[#32C5FA] py-10 px-5 hvr-bounce-to-left text-[#ffffff8c] hover:text-white">
+            <div className="border-[1px] border-[#32C5FA] py-10 px-8 hvr-bounce-to-left text-[#ffffff8c] hover:text-white">
               <div className="flex items-center gap-2">
                 <div>
                   <Image src={service_icon_8} alt="service-img" />
@@ -248,7 +248,7 @@ function Services() {
                 <p className="text-5xl font-semibold text-gradient">08</p>
               </div>
               <div className="py-5 space-y-2">
-                <h3 className="text-3xl font-semibold">Adobe XD</h3>
+                <h3 className="text-3xl  font-semibold">Adobe XD</h3>
                 <p className="text-sm">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Consectetur rem doloribus eaque illum earum corrupti unde!
