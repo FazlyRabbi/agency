@@ -48,12 +48,12 @@ add favcone -- done
 ========================================
 Delwarit-- Portfolio section
 
-		Link to project 
-		Detials page
-        
-		Blog Page 
-		Project Proposul Page
-		Service Page
+		Link to project == done
+		Detials page == done
+		Blog Page == done
+		Service Page == done
+
 		Faq 
+		Project Proposul Page
 		Term & condition page
 		Client Reveiw/Testimmonial

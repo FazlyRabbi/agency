@@ -37,7 +37,7 @@ function Blog() {
       <div className="bg-[#15171cfa] py-20 w-full md:pb-40 lg:pb-48">
         <div className="container mx-auto px-4">
           <div className="py-10 grid grid-cols-1 gap-10 lg:grid-cols-3 ">
-            <div className="lg:col-span-2 grid grid-cols-1 gap-10 lg:grid-cols-2">
+            <div className="lg:col-span-2 grid grid-cols-1 gap-10 lg:grid-cols-2 lg:gap-x-10">
               <div>
                 <div className="bg-cover bg-no-repeat overflow-hidden relative">
                   <Image
@@ -46,7 +46,7 @@ function Blog() {
                     className="w-full bg-cover overflow-auto ease-in-out hover:scale-110 transition-all duration-300"
                   />
                 </div>
-                <p className="text-[#3F81EA] font-semibold text-sm py-2">
+                <p className=" text-[#3F81EA] font-semibold text-sm py-2">
                   JUNE 22, 2023
                 </p>
                 <Link
