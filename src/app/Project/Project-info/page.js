@@ -10,7 +10,7 @@ export default function page() {
     <>
       <Header/>
       <Porject_info/>
-      {/* <Footer/> */}
+      <Footer/>
     </>
   )
 }

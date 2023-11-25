@@ -6,6 +6,7 @@ import Hero_img from "../img/hero_img.webp";
 import Hero_img_small_1 from "../img/hero-2.webp";
 import Hero_img_small_2 from "../img/hero-3.webp";
 
+
 function Hero() {
   return (
     <section>
