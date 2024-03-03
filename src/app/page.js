@@ -1,11 +1,10 @@
 "use client";
-
+import Header from "./components/Header";
+import HeaderTop from "./components/HeaderTop";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Footer_top from "./components/Footer_top";
-import Header from "./components/Header";
-import HeaderTop from "./components/HeaderTop";
 import Hero from "./components/Hero";
 import Service from "./components/Service";
 import Portfolio from "./components/Portfolio";

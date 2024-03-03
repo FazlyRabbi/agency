@@ -28,7 +28,7 @@ export default function Header() {
         variant="small"
         className="p-1 text-[#06D889] text-md transition-all duration-200 "
       >
-        <a href="#" className="flex items-center">
+        <a href="/" className="flex items-center">
           Home
         </a>
       </Typography>
@@ -103,36 +103,21 @@ export default function Header() {
       <div className="flex items-center container mx-auto justify-between text-[#06D889]">
         <Typography
           as="a"
-          href="#"
+          href="/"
           className="mr-4 cursor-pointer py-1.5 transition-all duration-200"
         >
           <Image src={logo} height={150} width={200} alt="logo" />
         </Typography>
         <div className="flex items-center gap-4">
-          <div className="flex flex-row-reverse gap-5 2xl:gap-20">
-            <div className="flex flex-row-reverse items-center gap-5">
+          <div className="flex flex-row-revers gap-5 2xl:gap-20">
+          <div className="mr-4 mt-2 hidden lg:block">{navList}</div>
+            <div className="flex items-center gap-5">
               <div className="hidden md:block">
                 <button className="border-[1px] border-[#06D889] font-bold py-2 px-8 rounded-md hover:bg-[#06D889] hover:text-black transition-all duration-300">
                   Get A Quote
                 </button>
               </div>
-              <div className=" hidden lg:block">
-                <div className="flex items-center gap-1">
-                  <FaBlenderPhone className="text-gray-400" />
-                  <p className="text-sm text-white text-[0.6rem]">
-                    For Client Support :
-                  </p>
-                </div>
-                <Link
-                  href="#"
-                  className="text-white ml-5 font-semibold hover:text-[#06D889] transition-all duration-200"
-                >
-                   9296429246
-                </Link>
-              </div>
-            </div>
-
-            <div className="mr-4 mt-2 hidden lg:block">{navList}</div>
+            </div>           
           </div>
 
           <IconButton

@@ -274,7 +274,7 @@ function project() {
               <Image
                 src={project_2}
                 alt="Project_2"
-                className="hover:brightness-75 transition-all duration-300"
+                className="w-full hover:brightness-75 transition-all duration-300"
               />
               <div className="opacity-0 group-hover:opacity-100 duration-300 absolute inset-x-0 bottom-0 flex justify-start px-5 items-end bg-[#15171ce1]">
                 <div className="py-5">
@@ -305,7 +305,7 @@ function project() {
                 </div>
               </div>
             </div>
-            <div className="md:col-span-2 relative group ">
+            <div className="order-last relative group ">
               <Image
                 src={project_1}
                 alt="Project_1"
@@ -340,7 +340,7 @@ function project() {
                 </div>
               </div>
             </div>
-            <div className="md:col-span-2 relative group ">
+            <div className=" relative group ">
               <Image
                 src={project_2}
                 alt="Project_1"

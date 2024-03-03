@@ -26,7 +26,7 @@ function Footer() {
       <div className="w-full py-16 bg-[#030128]">
         <div className="container mx-auto px-4">
           {/* play store section  */}
-          <div className="pb-16 md:-mt-40 xl:-mt-48">
+          {/* <div className="pb-16 md:-mt-40 xl:-mt-48">
             <div className="footer_bg_img w-full py-10 rounded-xl">
               <div className="px-8">
                 <h1 className="py-10 text-center text-white text-[1.9rem] md:text-[2.2rem] font-bold ">
@@ -42,7 +42,7 @@ function Footer() {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
           {/* ============================================== */}
           <div className="grid grid-cols-1 gap-5 md:grid-cols-2 md:space-y-5 xl:grid-cols-4 ">
             {/* grid 1 start */}
